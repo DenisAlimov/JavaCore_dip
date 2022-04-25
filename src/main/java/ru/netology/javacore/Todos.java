@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Todos {
 
-    List<String> taskList = new ArrayList<>();
+    protected List<String> taskList = new ArrayList<>();
 
     public void addTask(String task) {
         taskList.add(task);
